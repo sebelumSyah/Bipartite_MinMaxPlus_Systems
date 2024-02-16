@@ -1,0 +1,42 @@
+B=
+  -Inf    42  -Inf  -Inf  -Inf    56
+  -Inf  -Inf  -Inf  -Inf  -Inf    38
+    55     6    53  -Inf    98  -Inf
+  -Inf    14  -Inf  -Inf  -Inf    55
+    55    84    33  -Inf    54     4
+
+
+
+C=
+    Inf   Inf   Inf   Inf    50
+   Inf    82    27    96   Inf
+   Inf   Inf   Inf   Inf    48
+   Inf   Inf    46   Inf    74
+   Inf   Inf   Inf   Inf     2
+    71    95    67   Inf    46
+
+
+permutasion:
+sigma=(3,5,1,2,4)
+tau=(4,5,1,3,2,6)
+
+B(sigma,tau)=
+  -Inf    98    55    53     6  -Inf
+  -Inf    54    55    33    84     4
+  -Inf  -Inf  -Inf  -Inf    42    56
+  -Inf  -Inf  -Inf  -Inf  -Inf    38
+  -Inf  -Inf  -Inf  -Inf    14    55
+
+C(tau,sigma)=
+     46    74   Inf   Inf   Inf
+   Inf     2   Inf   Inf   Inf
+   Inf    50   Inf   Inf   Inf
+   Inf    48   Inf   Inf   Inf
+    27   Inf   Inf    82    96
+    67    46    71    95   Inf
+
+52.5
+63.5
+54
+
+

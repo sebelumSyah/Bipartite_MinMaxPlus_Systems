@@ -1,0 +1,50 @@
+B=
+31    89    50   100    67
+54    68  -Inf  -Inf  -Inf
+96    41    41    27    97
+1    30  -Inf  -Inf  -Inf
+
+C=
+35    29    96    73
+86    59    97    37
+47   Inf    59   Inf
+29   Inf    16   Inf
+9   Inf     8   Inf
+
+permutasion:
+sigma=(3     1     4     2)
+tau=(5     3     4     1     2)
+
+B(sigma,tau)=
+97    41    27    96    41
+67    50   100    31    89
+-Inf  -Inf  -Inf     1    30
+-Inf  -Inf  -Inf    54    68
+
+B11= 
+97    41    27
+67    50   100
+
+B22=
+1    30
+54    68
+
+
+
+C(tau,sigma)=
+ 8     9   Inf   Inf
+    59    47   Inf   Inf
+    16    29   Inf   Inf
+    96    35    73    29
+    97    86    37    59
+
+C11=
+8     9
+59    47
+16    29
+
+C22=
+73    29
+37    59
+
+

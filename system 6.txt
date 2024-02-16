@@ -1,0 +1,32 @@
+B=
+  42    35    44  -Inf
+  -Inf  -Inf    38     8
+    15  -Inf    18  -Inf
+  -Inf  -Inf    35  -Inf
+
+
+
+C=
+  10    18    36     7
+     0    39   Inf   Inf
+     4   Inf   Inf     1
+    16    20   Inf   Inf
+
+permutasion:
+sigma=(2,1,4,3)
+tau=(2,4,1,3)
+
+B(sigma,tau)=
+  -Inf     8  -Inf    38
+    35  -Inf    42    44
+  -Inf  -Inf  -Inf    35
+  -Inf  -Inf    15    18
+
+
+C(tau,sigma)=
+  39     0   Inf   Inf
+    20    16   Inf   Inf
+    18    10     7    36
+   Inf     4     1   Inf
+
+
